@@ -1,0 +1,17 @@
+config:
+  target: 'http://localhost:5050'
+  phases:
+    - duration: 10
+      arrivalRate: 7
+      name: "Warmup com 7 usuário / segundo"
+    - duration: 120
+      arrivalRate: 5
+      name: "Teste de carga com 5 usuários / segundo"
+    - duration: 180
+      arrivalRate: 2
+      name: "Stress test com 2 usuários / segundo"
+
+scenarios:
+  - flow:
+    - get:
+        url: "/readFile/1"
