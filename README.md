@@ -17,9 +17,9 @@
 
 
 
-# Nome do Projeto: Arquitetura Pandora
+# Arquitetura Pandora
 
-## Nome do Grupo: Atelerix
+## Atelerix
 
 ## Integrantes:
 
